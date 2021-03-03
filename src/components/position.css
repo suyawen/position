@@ -1,0 +1,51 @@
+.tablebox {
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    width: 685px;
+    margin: 100px auto;
+}
+.tbl-body {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.tablebox table {
+    width: 100%;
+    font-size: 14px;
+}
+.tablebox table td {
+    color: #333;
+    line-height: 50px;
+    text-align: left;
+}
+.tablebox table td:nth-child(1){
+    width: 50%;
+    color: #54a0cf;
+}
+.tablebox table td:nth-child(2){
+    width: 40%;
+    color: #969798;
+    text-align: center;
+
+}
+.tablebox table td:nth-child(3){
+    font-size: 14px;
+    color: #8b99a6;
+    float: right;
+}
+
+h3{
+ text-align: left;
+ border-bottom: 1px solid #eee;
+ box-sizing: border-box;
+ padding: 20px;
+ font-size: 18px;
+}
+h3 span{
+    float: right;
+    color:#888;
+    font-size:14px
+}
